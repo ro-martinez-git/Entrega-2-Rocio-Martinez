@@ -114,7 +114,7 @@ function mostrarServiciosPaciente() {
 }
 
 botonAgregarPaciente.addEventListener('click', () => {
-  const nombre = inputPacienteNombre.value.trim();
+  const nombre = inputPacienteNombre.value;
 
   if (!nombre) {
     alert('Por favor, ingresá un nombre válido para el paciente.');
@@ -140,7 +140,7 @@ botonAgregarServicio.addEventListener('click', () => {
     return;
   }
 
-  const nombreServicio = inputServicioNombre.value.trim();
+  const nombreServicio = inputServicioNombre.value;
   const precioServicio = parseFloat(inputServicioPrecio.value);
 
   if (!nombreServicio || isNaN(precioServicio) || precioServicio < 0) {
