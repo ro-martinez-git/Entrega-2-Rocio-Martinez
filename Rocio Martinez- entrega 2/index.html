@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Estética-Beauty</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">Bienvenido/a: Facturación Estética Beauty</h1>
+
+    <section class="card">
+      <h2>Agregar Paciente</h2>
+      <label for="nombrePaciente">Nombre del paciente:</label>
+      <input type="text" id="nombrePaciente" placeholder="Ej: Juan Perez" />
+      <button id="btnAgregarPaciente" class="btn-primary">Agregar Paciente</button>
+    </section>
+
+    <section class="card">
+      <h2>Seleccionar Paciente</h2>
+      <select id="selectPaciente" class="select-paciente">
+        <option value="">-- Seleccione un paciente --</option>
+      </select>
+
+      <h3>Agregue tratamiento al paciente seleccionado</h3>
+      <label for="nombreServicio">Nombre del servicio:</label>
+      <input type="text" id="nombreServicio" placeholder="Ej: Limpieza facial" />
+      
+      <label for="precioServicio">Precio del servicio $:</label>
+      <input type="number" id="precioServicio" placeholder="Ej: 1500" min="0" />
+      
+      <button id="btnAgregarServicio" class="btn-primary" disabled>Agregar Servicio</button>
+
+      <div id="servicios-list" class="servicios-list"></div>
+
+      <div class="total" id="totalServicio">Total: $0</div>
+
+      <button id="btnTerminarCompra" class="btn-primary btn-terminar" disabled>Terminar Compra</button>
+    </section>
+
+  </main>
+     <script src="main.js"></script>
+</body>
+</html>
