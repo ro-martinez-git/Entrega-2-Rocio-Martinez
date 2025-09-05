@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facturación</title>
+  <link rel="stylesheet" href="../styles/pacienteYFacturacion.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Facturación</h1>
+
+    <section class="card">
+      <label for="selectPaciente">Seleccionar Paciente:</label>
+      <select id="selectPaciente"></select>
+    </section>
+
+    <section class="card">
+      <h2>Agregar Servicio</h2>
+      <input type="text" id="nombreServicio" placeholder="Servicio">
+      <input type="number" id="precioServicio" placeholder="Precio" min="0">
+      <button id="btnAgregarServicio" class="btn">Agregar</button>
+    </section>
+
+    <section class="card">
+      <h2>Servicios Cargados</h2>
+      <ul id="listaServicios"></ul>
+      <p><strong>Total:</strong> $<span id="total">0</span></p>
+      <button id="btnFinalizar" class="btn">Finalizar Compra</button>
+    </section>
+
+    <a href="paciente.html" class="btn-link">Ir a Pacientes</a>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../scripts/facturacion.js"></script>
+</body>
+</html>

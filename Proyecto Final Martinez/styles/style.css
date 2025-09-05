@@ -1,0 +1,70 @@
+
+.welcome {
+    text-align: center;
+    padding: 70px 40px;
+    background: linear-gradient(135deg, #f3e8ff 0%, #e9d8fd 100%);
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(106, 63, 201, 0.15);
+    max-width: 500px;
+    margin: 60px auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5b2e8a;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #6f4ba0;
+    margin-bottom: 50px;
+}
+
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-group a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 25px;
+    border-radius: 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, #ab79ff 0%, #7a3cff 100%);
+    box-shadow: 0 6px 15px rgba(122, 60, 255, 0.35);
+    transition: all 0.3s ease;
+}
+
+.btn-group a:hover {
+    background: linear-gradient(90deg, #7a3cff 0%, #ab79ff 100%);
+    box-shadow: 0 10px 25px rgba(122, 60, 255, 0.55);
+    transform: translateY(-2px);
+}
+
+
+.back {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.back a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #6a3fc9;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.back a:hover {
+    color: #8b56e3;
+    transform: scale(1.05);
+}

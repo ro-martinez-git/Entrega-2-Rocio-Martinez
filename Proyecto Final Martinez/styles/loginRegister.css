@@ -1,0 +1,134 @@
+
+.container {
+  background: #ffffff;
+  max-width: 420px;
+  width: 100%;
+  margin: 60px auto;
+  padding: 40px 35px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(106, 63, 201, 0.15);
+  text-align: center;
+}
+
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #5b2e8a;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+
+.form-login label {
+  font-weight: 500;
+  color: #6a3fc9;
+  margin-bottom: 4px;
+}
+
+.form-login input {
+  width: 90%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1.8px solid #b8a0d8;
+  font-size: 1rem;
+  background-color: #faf5ff;
+  color: #5a3e8c;
+  transition: all 0.3s ease;
+}
+
+.form-login input:focus {
+  outline: none;
+  border-color: #8b56e3;
+  background-color: #f0e7ff;
+  box-shadow: 0 0 0 4px rgba(139, 86, 227, 0.15);
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  text-align: left;
+}
+
+.form-register label {
+  font-weight: 500;
+  color: #6a3fc9;
+  margin-bottom: 4px;
+}
+
+.form-register input {
+  width: 90%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1.8px solid #b8a0d8;
+  font-size: 1rem;
+  background-color: #faf5ff;
+  color: #5a3e8c;
+  transition: all 0.3s ease;
+}
+
+.form-register input:focus {
+  outline: none;
+  border-color: #8b56e3;
+  background-color: #f0e7ff;
+  box-shadow: 0 0 0 4px rgba(139, 86, 227, 0.15);
+}
+
+
+.btn-primary {
+  width: 100%;
+  margin-top: 15px;
+  padding: 14px 25px;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #ab79ff 0%, #7a3cff 100%);
+  box-shadow: 0 6px 15px rgba(122, 60, 255, 0.35);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #7a3cff 0%, #ab79ff 100%);
+  box-shadow: 0 10px 25px rgba(122, 60, 255, 0.55);
+  transform: translateY(-2px);
+}
+
+.btn-terminar {
+  background: #6a3fc9;
+  box-shadow: 0 6px 15px rgba(106, 63, 201, 0.45);
+}
+
+.btn-terminar:hover {
+  background: #8b56e3;
+  box-shadow: 0 10px 25px rgba(139, 86, 227, 0.6);
+}
+
+
+.back {
+  margin-top: 25px;
+}
+
+.back a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #6a3fc9;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.back a:hover {
+  color: #8b56e3;
+  transform: scale(1.05);
+}

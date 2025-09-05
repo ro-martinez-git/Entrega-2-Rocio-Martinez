@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Pacientes</title>
+  <link rel="stylesheet" href="../styles/pacienteYFacturacion.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Gestión de Pacientes</h1>
+    
+    <form id="formPaciente" class="card">
+      <label for="nombrePaciente">Nombre completo:</label>
+      <input type="text" id="nombrePaciente">
+
+      <label for="edadPaciente">Edad:</label>
+      <input type="number" id="edadPaciente" min="0">
+
+      <label for="diagnosticoPaciente">Diagnóstico:</label>
+      <input type="text" id="diagnosticoPaciente">
+
+      <button type="submit" class="btn">Agregar Paciente</button>
+    </form>
+
+    <section class="card">
+      <h2>Listado de Pacientes</h2>
+      <ul id="listaPacientes"></ul>
+    </section>
+
+    <a href="facturacion.html" class="btn-link">Ir a Facturación</a>
+  </main>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../scripts/paciente.js"></script>
+</body>
+</html>
